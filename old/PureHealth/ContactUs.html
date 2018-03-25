@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>My Pure Health - Bristol</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Qwigley' rel='stylesheet' type='text/css'/>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>	
+
+	<script type="text/javascript">	
+		$(document).ready(function() 
+		{ 
+			$('.email').html(function()
+			{
+				var a = "emma";
+				var b = "@";
+				var c = "mypurehealth";
+				var d = ".co.uk";
+				return a + b + c + d;
+			});
+		
+			$('.mobile').html(function()
+			{
+				var a = "+44";
+				var b = "7454";
+				var c = "251904";
+				return a + b + c;
+			});			
+		});
+	</script>
+	
+</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">			
+				<div class="brand">				
+					<div class="title">Pure Health</div>
+				</div>			
+				<div class="menu">
+					<ul>
+						<li><a href="Home.html">Home</a></li> 
+						<li><a href="WhySeeMe.html">Why See Me</a></li> 
+						<li><a href="Services.html">Services</a></li> 
+						<li class="selected"><a href="ContactUs.html">Contact Us</a></li> 
+						<li><a href="Articles.html">Articles</a></li>
+					</ul>					
+				</div>
+			</div>
+			<div class="content">
+				<div class="primary">					
+					<div class = "maincontent">
+						<div class="location">							
+							<div class="map"> 
+								<iframe class="mapframe" src="https://www.google.co.uk/maps?t=m&amp;q=BS9+3AL+&amp;ie=UTF8&amp;hq=&amp;hnear=Bristol+BS9+3AL,+United+Kingdom&amp;z=14&amp;ll=51.490445,-2.617651&amp;output=embed"></iframe>
+							</div>											
+						</div>										
+						<div class="contactdetails detailsbox">		
+							<ul>
+							  	<li class="email" 		title="Email"></li>
+							  	<li class="mobile" 		title="Mobile"></li>
+							</ul>
+						</div>		
+						<div class="address detailsbox">
+							<div class="addressimage"><img src="img/address.png"/></div>					  
+							<div class="addressliteral">
+								<address>
+									The Chiron Centre</br>
+									130 Westbury Road</br>
+									Westbury</br>
+									Bristol</br>
+									BS9 3AL</br>									
+								</address>
+							</div>							
+						</div>	
+
+						<div class="socialmedia detailsbox" style="display:none">
+							<ul>
+							  	<li><a href="http://feeds.feedburner.com/identifier" 	class="rss" 		title="Subscribe to RSS Feed" rel="nofollow"></a></li>
+							  	<li><a href="http://www.linkedin.com/in/identifier" 	class="linkedin" 	title="Connect on Linkedin"></a></li>
+							  	<li><a href="http://www.facebook.com/identifier" 		class="facebook" 	title="Join us on Facebook"></a></li>
+							  	<li><a href="http://www.google.com/identifier" 			class="google" 		title="Join us on Google+"></a></li>
+							</ul>
+						</div>								
+					</div>
+				</div>
+				<div class="secondary">
+					<div class="nav">
+						<ul> 
+							<li><a href="Nutrition.html">Nutrition</a></li> 
+							<li><a href="Colonics.html">Colonics</a></li> 
+							<li><a href="Naturopathy.html">Naturopathy</a></li>										
+						</ul>
+					</div>
+				</div>				
+				<div class="footer">
+					Emma xx
+				</div>				
+			</div>
+		</div>		
+	</body>
+</html>

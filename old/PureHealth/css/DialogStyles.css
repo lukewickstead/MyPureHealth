@@ -1,0 +1,35 @@
+/* Text 
+================================= */
+.title
+{
+	font-size: 9em;
+	font-family: 'Qwigley', cursive;
+	margin-right: auto; 
+	margin-left: auto; 
+	padding-left: 50px;
+}
+
+p
+{
+	font-size: 2em;
+	margin: 10px;	
+}
+
+* 
+{
+	margin:0; 
+	padding:0;
+}
+
+h1 
+{
+	font-size: 3em;
+	text-align: center;
+}
+
+body 
+{
+	font: 62.5%/1.6 "Times New Roman", Times, serif;
+	background: url('../img/pestle.jpg') top right no-repeat; 
+	background-size: 100% auto;
+}
